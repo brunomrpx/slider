@@ -1,0 +1,79 @@
+.slider-container {
+	background-color: #888;
+	position: relative;  	    
+  height: 500px;
+	margin: 0 auto;    
+}
+
+.slider-container:hover .button {
+  display: inline-block;
+}
+
+.slider-container .banner .legend {
+	background-color: #000;
+	color: #fff;	
+	width: 100%;    
+	margin: 0 auto;
+	padding: 15px 0;
+  position: absolute;
+  bottom: 0px;
+  opacity: 0.7;    
+  z-index: 1;
+  text-indent: 15px;
+}
+
+.slider-container .banner {  		
+	margin: 0 auto;
+	width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slider-container .banner a img {
+  display: table;
+	margin: 0 auto;
+}
+
+.slider-container .banner a {
+	text-decoration: none;
+}
+
+.slider-container .previous-button {  	  	
+	left: 0px;  	    
+}
+
+.slider-container .next-button {
+	right: 0px;  	    
+}
+
+.slider-container .button {      
+	border: none;
+	position: absolute;
+  height: 50px;
+  width: 50px;	
+  display: none;
+  background-color: #000;    
+  color: #fff;    
+  font-size: 15px;
+  cursor: pointer;   
+  z-index: 0; 
+}
+
+.banner-numbers {
+  display: inline-block;
+}
+
+.banner-numbers .banner-number {
+  border: none;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;  
+  padding: 10px;
+  background-color: #000;
+  color: #fff;  
+  margin-right: 5px;    
+}
+
+.banner-numbers .selected-banner-number {
+  color: gold;
+}  
