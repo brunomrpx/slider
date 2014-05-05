@@ -10,15 +10,13 @@
       <div class="banner">
         <a href="">
           <img src="images/img1.jpg" alt="Imagem 2">
-          <span class="legend">
-            <span>Descrição da imagem 1<span>
-          </span>
+          <span class="legend">Descrição da imagem 1</span>
         </a>
       </div>     
       <div class="banner">
         <a href="">
           <img src="images/img2.jpg" alt="Imagem 1">
-          <span class="legend">Descrição da imagem 2</span>          
+          <span class="legend">Descrição da imagem 2</span>
         </a>
       </div>               
     </div>

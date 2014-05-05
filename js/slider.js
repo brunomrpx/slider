@@ -172,4 +172,4 @@ Slider = {
   }
 }
 
-Slider.start();
+
