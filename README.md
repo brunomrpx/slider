@@ -37,7 +37,7 @@ Após isso, o Slider deve ser iniciado:
 Slider.start();
 ```
 
-Largura, algura e tempo de transição dos banners podem ser passados como parâmetros da seguinte forma:
+Largura, altura e tempo de transição dos banners podem ser passados como parâmetros da seguinte forma:
 
 ```javascript
 Slider.start({
