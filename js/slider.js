@@ -9,13 +9,13 @@
 // Objeto para controle do slider
 Slider = {
 
-	divSliderContainer  : document.querySelector(".slider-container"),
-	banners             : document.querySelectorAll(".banner"),
+  divSliderContainer  : document.querySelector(".slider-container"),
+  banners             : document.querySelectorAll(".banner"),
   previousButton      : document.querySelector(".previous-button"),
   nextButton          : document.querySelector(".next-button"),
   divBannerNumbers    : null,  
   bannerNumbers       : null,  
-	selectedBannerIndex : 0,
+  selectedBannerIndex : 0,
   rotationInterval    : null,
   // Padrão de tempo para cada banner
   time                : 2000 ,
